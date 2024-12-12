@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Page</title>
+    <link rel="stylesheet" href="payment.css">
+    <link rel="stylesheet" href="paymentmediaquery.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="head-container">
+            <div class="head-content">
+             <a href="contact.html">Help</a>
+             <p>|</p>
+             <a href="menu.html">Store</a>
+            </div>
+        </div>
+    </header>
+    <div id="wrapper-padding">
+
+        <img class="image" src="img/logo.png" alt="">
+        <!-- hamburger menu -->
+        <div class="menu-icon" id="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+         <div class="nav-container">
+             <div class="icon-wrapper">
+                 <div class="icon">
+                     <img src="img/chat.png" alt="">
+                     <span>1</span>
+                 </div>
+                 <div class="icon">
+                     <img src="img/favorite.png" alt="">
+                     <span>10</span>
+                 </div>
+                 <div class="icon">
+                     <img src="img/cart.png" alt="">
+                     <span>5</span>
+                 </div>
+             </div>
+             <div class="admin-container">
+                 <div class="admin-image"></div>
+                 <p>Hello Admin</p>
+             </div>
+        </div>
+ 
+            <div class="sign">
+               <p><span class="method">Payment Method</span> <span class="arrow">></span> Payment Verification</p>
+              <hr>
+            </div>
+            <div id="wrapper-payment-details">
+                <div class="payment-container">
+                    <div class="shopping-container">
+                        <label>Shopping Address</label>
+                        <input type="text" placeholder="Jl. Bojong timur no 65, Bumi datar, kapuas">
+                    </div>
+                    <div class="city-container">
+                        <label>City</label>
+                        <select>
+                            <option value="">ado</option>
+                            <option value="">lagos</option>
+                            <option value="">jos</option>
+                        </select>
+                    </div>
+
+                    <div class="state-province">
+                        <label>State / Province *</label>
+                        <select>
+                            <option value="">ado</option>
+                            <option value="">lagos</option>
+                            <option value="">jos</option>
+                        </select>
+                    </div>
+
+                    <div class="postal-code">
+                        <label>Postal Code *</label>
+                        <select>
+                            <option value="">ado</option>
+                            <option value="">lagos</option>
+                            <option value="">jos</option>
+                        </select>
+                    </div>
+                </div>
+                <!-- <hr> -->
+                <div class="container">
+                    <h2>Shopping</h2>
+                    <select class="chosen" >
+                        <option value="">Express Delivery - Rp. 53.000</option>
+                        <option value="">sandals</option>
+                    </select>
+                    <hr class="shopping-hr">
+                    <main class="subtotal-container">
+                        <p>Subtotal</p>
+                        <p>995</p>
+                        
+                        <p>Shipping</p>
+                        <p>Rp 33.000</p>
+                        <p>promo</p>
+                        <p>-</p>
+                    </main>
+                    <section class="total-container">
+                        <p>Total :</p>
+                        <p>Rp 149.995</p>
+                    </section>
+                    <button class="check-out">Check out</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>

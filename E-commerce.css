@@ -1,0 +1,517 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "inter";
+}
+.header-container{
+    height: 3.5em;
+    width: 100%;
+    background: #F1F1F1;
+    padding-right: 8em;
+    padding-top: 23px;
+}
+.header-content{
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+}
+.header-content a{
+    text-decoration: none;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #858585;
+    padding-top: 5px;
+}
+.body-padding{
+    padding-right: 8em;
+    padding-left: 8em;
+}
+.header-content p{
+    font-size: 1rem;
+    font-family: "inter";
+    color: #858585;
+}
+.nav-container{
+    height: 7.5em;
+    width: 100%;
+    background: white;
+    display: flex;
+    align-items: center;
+    gap: 10em;
+    
+}
+.menu{
+    display: none;
+}
+.menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+}
+
+.line {
+    width: 30px;
+    height: 5px;
+    background: #1F3E97;
+    margin: 6px 0;
+    transition: 0.4s;
+    display: none;
+}
+.nav-just{
+    display: flex;
+    justify-items: flex-start;
+    gap: 2em;
+}
+
+.nav-section{
+    display: flex;
+    align-items: center;
+}
+.nav-section ul{
+    display: flex;
+    font-size: 0.8rem;
+    list-style-type: none;
+    gap: 1em;
+    width: 22.5em;
+}
+.nav-section ul a{
+    text-decoration: none;
+    list-style: none;
+    font-family: "inter";
+    color: #1F3E97;
+}
+.nav-section a:hover{
+    border-bottom: 3px solid #1F3E97;
+    transition: border 1s;
+
+}
+.icon-btn{
+    display: flex;
+    gap: 1.5em;
+}
+.nav-icon{
+    display: flex;
+    gap: 0.7em;
+    margin-top: 0.5em;
+    cursor: pointer;
+}
+.nav-icon img{
+    color: #1F3E97;
+    height: 1.5em;
+}
+.nav-btn{
+    display: flex;
+    justify-items: end;
+    gap: 1em;
+    
+}
+.nav-btn button{
+    background-color: white;  
+    color: #1F3E97;               
+    height: 3em;
+    width: 6em;
+    border: 1px solid #1F3E97;               
+    border-radius: 25px;         
+    font-size: 16px;            
+    cursor: pointer;             
+    transition: background-color 0.3s,
+    box-shadow 0.3s;
+}
+.nav-btn button:hover{
+    background: #1F3E97;
+    color: white;
+}
+
+.sign p{
+    padding-top: 10px;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #464646;
+    padding-left: 1em;
+}
+.sign hr{
+    color: #D9D9D9;
+    margin-top: 1.5em;
+    opacity: 0.4;
+}
+.registration-container{
+    display: flex;
+}
+
+.name-container{
+    margin-top: 0.6em;
+}
+.date-container{
+    margin-top: 0.6em;
+}
+.password-container{
+    margin-top: 0.6em;
+}
+.signup-section label{
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1F3E97;
+}
+
+input{
+    width: 19em;             
+    padding: 12px 20px;         
+    margin: 8px 0;              
+    box-sizing: border-box;    
+    border: 2px solid #ccc;     
+    border-radius: 6px;         
+    font-size: 16px;            
+    background-color: #f9f9f9;  
+    transition: border 0.3s,
+    background-color 0.3s;
+}
+input:focus{
+    border-color: #1F3E97;    
+    background-color: #fff;     
+    outline: none;    
+}
+input::placeholder{
+    color: #aaa;                
+    font-style: italic;
+}
+.sign-up{
+    display: flex;
+    gap: 1em;
+}
+.registration-container{
+    display: flex;
+    gap: 2em;
+}
+.form2{
+    margin-top: 1px;
+}
+.form2 label{
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: "inter";
+    color: #1F3E97;
+    
+}
+.signup-section label{
+    font-family: "inter";
+}
+.addre-hr{
+     margin-top: 2.5em;
+     width: 35.4em;
+    color: #D9D9D9;
+    opacity: 0.4; 
+ }
+ .address-container{
+    margin-top: 0.8em;
+ }
+ .address-container label{
+    padding-left: 10px;
+    font-size: 15px;
+    color: #1F3E97;
+    font-family: "inter";
+ }
+ .address-container input{
+    width: 40em;             
+    padding: 12px 20px;         
+    margin: 8px 0;              
+    box-sizing: border-box;    
+    border: 2px solid #ccc;     
+    border-radius: 6px;         
+    font-size: 16px;            
+    background-color: #f9f9f9;  
+    transition: border 0.3s,
+    background-color 0.3s;
+ }
+ .state-and-city{
+     display: flex;
+     gap: 2em;
+     margin-top: 1em;
+ }
+ .state-and-city label{
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: "inter";
+    color: #1F3E97;
+ }
+ select{
+    width: 19em;
+    padding: 10px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9; 
+    border-radius: 4px;
+    color: #333;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 0.5em;
+ }
+ select:focus{
+    outline: none;
+ }
+ select::after{
+   content: '\25BC'; 
+   position: absolute;
+   top: 50%;
+   right: 10px;
+   transform: translateY(-50%);
+   pointer-events: visible; 
+   color: #333;
+   font-size: 12px;
+ }
+ select option {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: none;
+    font-family: inherit;
+  }
+.radio-wrapper{
+   margin-top: 2em;
+}
+.radio-wrapper input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .radio-wrapper label {
+    position: relative;
+    padding-left: 30px;
+    font-size: 13px;
+    color: #333;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 20px;
+    font-family: Arial, sans-serif;
+  }
+  .radio-wrapper label::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px; 
+    background-color: white;
+    transition: all 0.3s ease;
+  }.radio-wrapper input[type="radio"]:checked + label::before {
+    background-color: #F1F1F1; 
+    border-color: none;
+  }
+  .radio-wrapper input[type="radio"]:checked + label::after {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    width: 10px;
+    height: 10px;
+    background-color: #F1F1F1;
+    ;
+    border-radius: 4px;
+  }
+  .radio-wrapper label:hover::before {
+    border-color: none; 
+  }
+  .signup-container{
+    margin-top: 2em;
+  }
+  .signup-container button{
+  border: none;
+  color: white;
+  background-color: #18378F;
+  height: 3em;
+  width: 42.8em;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 5px; 
+  font-family: "inter";
+  cursor: pointer;
+  transition: all 0.3s ease; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+.or{
+    margin-top: 2em;
+    margin-left: 17em;
+}
+.social-container{
+    display: flex;
+    gap: 2em;
+    margin-left: 1em;
+    margin-top: 2em;
+}
+.google-icon, .facebook-icon{
+    height: 2.5em;
+    width: 14em;
+    background-color: white;
+    border: 1px solid #1F3E97;
+    color: #1F3E97;
+    cursor: pointer;
+    border-radius: 30px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    font-family: "inter";
+}
+.google-icon span{
+    position: relative;
+    top: -0.2em;
+}
+
+.facebook-icon span{
+    position: relative;
+    top: -0.2em;
+}
+
+.scrolling-image{
+    overflow: hidden;
+    width: 22em;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 2em;
+}
+.slider{
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+.slide{
+    min-width: 100%;
+    transition: transform 1s ease-in-out;
+    width: 1s ease-in-out;
+}
+.dot-container{
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    height: 1em;
+    right: 90px;
+    top: 21em;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.3);
+    padding: 5px;
+    border-radius: 20px;
+}
+.dot{
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+}
+.active-dot{
+    background-color: white;
+}
+
+/*register slide image is what divide the registrationpart and the slider part*/
+.register-slide-image{
+    display: flex;
+    gap: 2.2em;
+}
+footer{
+    background: #1F3E97;
+    margin-top: 4em;
+}
+.padding-2{
+    padding-left: 8em;
+    padding-right: 8em;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4em;
+}
+.footer-container input{
+    width: 29em;
+    border-radius: 2em;
+    height: 3.5em;
+    padding-left: 2em;
+    border: none;
+}
+.footer-container input:focus{
+    outline: none;
+    border: none;
+}
+
+.about a{
+    color: white;
+}
+.help a{
+    color: white;
+} 
+.footer-details {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    padding: 20px;
+    color: white;
+    margin-top: 3em;
+}
+
+.footer-details h2 {
+    font-size: 29px;
+    margin-bottom: 20px;
+    
+}
+
+.footer-details a {
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footer-details a:hover {
+    text-decoration: underline;
+}
+
+.footer-details p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+.footer-details img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.footer-details .social div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-details .social span {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer-details .contact p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer-copyright {
+    background: #18378F;
+    text-align: center;
+    padding: 10px 0; 
+    color: #fff;
+    font-size: 14px; 
+}
+
+.footer-copyright p {
+    margin: 0;
+    color: #ccc; 
+}
+

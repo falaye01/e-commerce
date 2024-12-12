@@ -1,0 +1,103 @@
+@media only screen and (max-width: 480px){
+    header{
+        display: none;
+    }
+    #wrapper-padding{
+        padding: 0 1em;
+    }
+    .nav-container{
+        display: none;
+    }
+    .shopping-item-container{
+        display: block;
+    }
+    .item-details{
+        gap: 1em;
+    }
+    /* design for hamburger menu */
+    .menu-btn{
+        margin-top: 3em;
+    }
+    .menu-btn-burger{
+        width: 35px;
+        height: 3px;
+        background-color: #1F3E97;
+        margin: 5px 0;
+        transition: 0.3s ease-in-out;
+        border: 3px solid red;
+        visibility: visible;
+    }
+
+    .menu {
+        list-style: none;
+        text-align: center;
+        background-color: #333;
+        padding:  15px 0;
+        width: 20em;
+        object-position: center;
+        margin-left: -1em;
+        z-index: 999;
+        margin-top: 1.5em;
+        position: absolute;
+        visibility: hidden;
+    }
+    .menu a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        transition: color 0.3s ease-in-out;
+        visibility: visible;
+    }
+    .sign{
+        margin-top: 3em;
+    }
+
+    
+    .line-strike{
+        font-size: 15px;
+    }
+      
+    .shopping-item-container img{
+        height: 1em;
+        width: 1em;
+    }
+    .horizontal-line{
+        width: 16em;
+        border: 0.52px solid #D9D9D9
+    }
+    .cart-content div{
+        position: relative;
+    }
+    .disc-btn{
+        font-size: 12px;
+        padding: 3px 5px;
+        position: absolute;
+        right: -10em;
+
+    }
+
+    .add-note p{
+        font-size: 12px;
+    }
+    .add-and-delete{
+        margin-right: 1em;
+    }
+    .wrap-detail{
+        margin-left: 0.3em;
+        margin-top: 2em;
+        margin-bottom: 5em;
+        width: 17em;
+    }
+    .wrap-detail .check-btn {
+       width: 15em;
+    }
+    .wrap-detail .apply-code{
+        width: 15em;
+    }
+    .apply-code input{  
+        width: 6em;
+    }
+    .apply-code button{
+        margin-left: 3.5em;
+    }
+}

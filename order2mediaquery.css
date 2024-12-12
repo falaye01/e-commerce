@@ -1,0 +1,76 @@
+@media only screen and (max-width: 480px){
+    header{
+        display: none;
+    }
+    #wrapper-padding{
+        padding: 0 2em;
+    }
+    .wrapper{
+        display: none;
+    }
+    .order-show-container{
+        display: block;
+    }
+    .order-show-container .empty-div{
+        width: 15em;
+    }
+    .disc{
+        width: 8em;
+        border-radius: 30px;
+        height: 2.5em;
+        font-size: 20px;
+    }
+    .inner-container{
+        margin-left: 7em;
+    }
+    .inner-container .loved-share-icon{
+        margin-top: 2em;
+        margin-left: 3.5em;
+    }
+    .second-container h2{
+        margin-left: 0.7em;
+        margin-top: 1em;
+    }
+    .second-container .strike{
+        margin-left: 9em;
+        margin-top: 2em;
+    }
+    .second-container p{
+        margin-left: 5.4em;
+        margin-top: 2em;
+    }
+    .second-container span{
+        margin-left: 5.3em;
+    }
+    .size-container{
+        margin-top: 2em;
+        margin-left: 3em;
+    }
+    .cart-container img{
+        margin-left: 7em;
+    }
+    .cart-container button{
+        width: 12em;
+        height: 3em;
+        margin-left: 4em;
+        margin-top: 2em;
+    }
+
+    .empty-div img{
+        width: 13em;
+    }
+    .inner-container{
+        display: block;
+    }
+    .cart-container{
+        display: block;
+        margin-top: 2em;
+    }
+    .review-container{
+        width: 15em;
+    }
+    .re{
+        display: none;
+    }
+    
+}

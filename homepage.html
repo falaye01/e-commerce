@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Homepage</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="homepageMediaquery.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- alert when user add to cart -->
+    <div id="customAlert" class="alert hidden">
+        <p>Product added successfully!</p>
+      </div>
+    <div class="header-container"></div>
+    <div id="wrapper-padding">
+                <img class="image" src="img/logo.png" alt="">
+        <div class="wrapper">
+            <div class="nav-container">
+                <div class="hamburger" id="menu-toggle">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <div class="menu">
+                    <a href="#">Home</a>
+                    <a href="#">Sneakers</a>
+                    <a href="#">Slip On</a>
+                    <a href="#">Scandals</a>
+                    <a href="#">Other</a>
+                </div>
+            </div>
+            <div class="icon-wrapper">
+                <div class="icon">
+                    <img src="img/chat.png" alt="">
+                    <span>0</span>
+                </div>
+                <div class="icon">
+                    <img src="img/favorite.png" alt="">
+                    <span>0</span>
+                </div>
+                <div class="icon">
+                    <img onclick="window.location.href = 'http://127.0.0.1:5500/shopping.html'" src="img/cart.png" alt="">
+                    <span id="cart-number">0</span>
+                </div>
+            </div>
+            <div class="btn-wrapper">
+                <button onclick="window.location.href = 'http://127.0.0.1:5500/signup.html'">SIGN UP</button>
+                <BUtton onclick="window.location.href = 'http://127.0.0.1:5500/signup.html'">SIGN IN</BUtton>
+            </div>
+        </div>
+        <div class="search-container">
+            <div>
+              <input type="text" placeholder="Search...">
+              <img src="img/search.png" alt="">
+            </div>
+        </div>
+        
+    </div>
+    <section>
+        <div class="page-area">
+            <div class="page-wrapper">
+                <div class="para-container">
+                    <img  src="img/logo.png" alt="">
+                <h2>PUBLIC HIGH <span>GUM NATURAL</span> </h2>
+                <p>It was popularised in the 1960s with the release of Letraset sheets co    ntaining <br> Lorem Ipsum passages, and more recently with desktop publishing</p>
+                <button>Shop Now</button>
+                </div>
+                <img id="image" src="img/shoe.png" alt="">
+            </div>
+        </div>
+    </section>
+    <main>
+        <div class="popular">
+            <input type="text" placeholder="Most Popular">
+            <img src="img/slider2.png" alt="Image 1" class="icon-left">
+            <img src="img/slider1.png" alt="Image 2" class="icon-right">
+        </div> 
+
+        <div id="order-container">
+            <!-- testing for cart and container logic and implemtation -->
+             <div id="order-list"></div>
+
+             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- <div class="order2">
+                <img src="img/shoe1.png" alt="Shoe Image">
+                <div class="order2-details">
+                    <h2>Vantela New Public<br> 
+                        White low</h2>
+                    <p>Rp 159.000</p>
+                </div>
+                <div class="shop">
+                    <div>⭐<span>4.5/5</span></div>
+                    <button type="button" onclick="window.location.href = 'http://127.0.0.1:5500/order.html'">Shop Now</button>
+
+                </div>
+            </div>
+
+            <div class="order2">
+                <img src="img/shoe2.png" alt="Shoe Image">
+                <div class="order2-details">
+                    <h2>Vantela New Public<br> 
+                        White low</h2>
+                    <p>Rp 159.000</p>
+                </div>
+                <div class="shop">
+                    <div>⭐<span>4.5/5</span></div>
+                    <button onclick="window.location.href = 'http://127.0.0.1:5500/order.html'">shop Now</button>
+                </div>
+            </div>
+
+            <div class="order2">
+                <img src="img/shoe3.png" alt="Shoe Image">
+                <div class="order2-details">
+                    <h2>Vantela New Public<br> 
+                        White low</h2>
+                    <p>Rp 159.000</p>
+                </div>
+                <div class="shop">
+                    <div>⭐<span>4.5/5</span></div>
+                    <button onclick="window.location.href = 'http://127.0.0.1:5500/order.html'">shop Now</button>
+                </div>
+            </div>
+
+            <div class="order2">
+                <img src="img/shoe4.png" alt="Shoe Image">
+                <div class="order2-details">
+                    <h2>Vantela New Public<br> 
+                        White low</h2>
+                    <p>Rp 159.000</p>
+                </div>
+                <div class="shop">
+                    <div>⭐<span>4.5/5</span></div>
+                    <button onclick="window.location.href = 'http://127.0.0.1:5500/order.html'">shop Now</button>
+                </div>
+            </div> -->
+        </div>   
+
+        <div class="popular">
+            <input type="text" placeholder="On sale">
+            <img src="img/slider2.png" alt="Image 1" class="icon-left">
+            <img src="img/slider1.png" alt="Image 2" class="icon-right">
+        </div> 
+
+        <div id="sale-container">
+            <div class="order2">
+                <img src="img/frame1.png" alt="Shoe Image">
+                <button class="disc">Disc 50%</button>
+                <div class="order2-details">
+                    <h2>Vantela New Public<br> 
+                        White low</h2>
+                    <p>Rp 159.000</p>
+                </div>
+                <div class="shop">
+                    <div>⭐<span>4.5/5</span></div>
+                    <button onclick="window.location.href = 'http://127.0.0.1:5500/order.html'">shop Now</button>
+                </div>
+            </div>
+
+            <div class="order2">
+                <img src="img/frame2.png" alt="Shoe Image">
+                <button class="disc">Disc 50%</button>
+                <div class="order2-details">
+                    <h2>Vantela New Public<br> 
+                        White low</h2>
+                    <p>Rp 159.000</p>
+                </div>
+                <div class="shop">
+                    <div>⭐<span>4.5/5</span></div>
+                    <button onclick="window.location.href = 'http://127.0.0.1:5500/order.html'">shop Now</button>
+                </div>
+            </div>
+
+            <div class="order2">
+                <img src="img/frame3.png" alt="Shoe Image">
+                <button class="disc">Disc 50%</button>
+                <div class="order2-details">
+                    <h2>Vantela New Public<br> 
+                        White low</h2>
+                    <p>Rp 159.000</p>
+                </div>
+                <div class="shop">
+                    <div>⭐<span>4.5/5</span></div>
+                    <button onclick="window.location.href = 'http://127.0.0.1:5500/order.html'">shop Now</button>
+                </div>
+            </div>
+
+            <div class="order2">
+                <img src="img/frame1.png" alt="Shoe Image">
+                <button class="disc">Disc 50%</button>
+                <div class="order2-details">
+                    <h2>Vantela New Public<br> 
+                        White low</h2>
+                    <p>Rp 159.000</p>
+                </div>
+                <div class="shop">
+                    <div>⭐<span>4.5/5</span></div>
+                    <button onclick="window.location.href = 'http://127.0.0.1:5500/order.html'">shop Now</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="wall-container">
+            <img src="img/wallpaper.png" alt="">
+            <div class="see-container">
+                <button>See more ></button>
+                <div class="dots">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+<footer>
+    <div class="padding-2">
+     <div class="footer-container">
+         <img src="img/footer-logo.png" alt="">
+              <input type="search" placeholder="Subscribe to our newsletter ...">
+    </div>
+    <div class="footer-details">
+        <div class="about">
+                    <h2>Company</h2>
+                    <a href="#">About us</a><br>
+                    <a href="#">Our store</a><br>
+                    <a href="#">News</a>
+        </div>
+        <div class="help">
+            <h2>Help</h2>
+            <a href="#">Faq</a><br>
+            <a href="#">Help</a><br>
+            <a href="#">Terms</a>          
+        </div>
+        <div class="social">
+            <h2>Social Media</h2>
+            <div>
+                <img src="img/facebook.png" alt=""><span>Facebook</span>
+            </div>
+            <div>
+                <img src="img/tik.png" alt="">
+                <span>Tiktok</span>
+            </div>
+            <div>
+                <img src="img/instagram.png" alt=""><span>Instagram</span>
+            </div>
+        </div>     
+        <div class="contact">
+            <h2>Contact</h2>
+            <p>Sukaasih, Kota Tangerang, Banten 15111</p>
+            <p>Phone : 0976444677</p>
+            <p>Mail : adminvantela@domain.com</p>
+        </div>
+        </div>
+    
+        </div>
+ </footer>
+    <div class="footer-copyright">
+        <p>Copyright <span id="yeardate">2023</span> . All Right Reserverd</p>
+    </div>
+
+
+    <!-- <div id="cart"></div> -->
+    <script src="cart.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order page</title>
+    <link rel="stylesheet" href="order.css">
+    <link rel="stylesheet" href="ordermediaquery.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="head-container">
+            <div class="head-content">
+             <a href="contact.html">Help</a>
+             <p>|</p>
+             <a href="menu.html">Store</a>
+            </div>
+        </div>
+    </header>
+    <div id="wrapper-padding">
+       <img class="image" src="img/logo.png" alt="">
+        <div class="nav-container">
+            <div class="icon-wrapper">
+                <div class="icon">
+                    <img src="img/chat.png" alt="">
+                    <span>1</span>
+                </div>
+                <div class="icon">
+                    <img src="img/favorite.png" alt="">
+                    <span>10</span>
+                </div>
+                <div class="icon">
+                    <img  type="button" onclick="window.location.href = 'http://127.0.0.1:5500/shopping.html'" src="img/cart.png" alt="">
+                    <span>5</span>
+                </div>
+            </div>
+            <div class="admin-container">
+                <div class="admin-image"></div>
+                <p>Hello Admin</p>
+            </div>
+        </div>
+        <p class="order-list"><span class="ven-1">Vantela></span><span class="ven-2">Sneakers></span><span class="ven-3">Men’s Sneakers></span><span class="item">Vantela New Public White low</span></p>
+        
+
+        <div id="order-details"></div>
+        <div class="order-show-container">
+            <div class="empty-div"><img src="img/ordershow.png" alt=""></div>
+
+            <div class="second-container">
+                <div class="inner-container">
+                    <button class="disc">Disc 50%</button>
+                    <div class="loved-share-icon">
+                     <img src="img/loved.png" alt="">   
+                     <img src="img/share-icon.png" alt="">
+                    </div>
+                </div>
+                  <h2>Vantela Ethnic Low <br> 
+                    Black Natural</h2>
+                    <strike class="strike">Rp 319.600</strike>
+                    <p>Rp 159.800</p><br>
+                    <span>Select a size</span>
+                    <div class="size-container">
+                        <button>1</button>
+                        <button>2</button>
+                        <button>3</button>
+                        <button>4</button>
+                        <button>5</button>
+                        <button>6</button>
+                    </div>
+                    <div class="cart-container">
+                        <img src="img/chatting.png" alt=""><br>
+                        <button>+Add to cart</button> <br>
+                        <button type="button" onclick="window.location.href = 'http://127.0.0.1:5500/shopping.html'">Buy more</button>
+                    </div>
+            </div>
+        </div>
+
+        <div class="review-container">
+            <p>Details</p>
+            <p>Review</p>
+            <p>similar products</p>
+        </div>
+        <div class="order-details-container">
+            <main>
+                <p>Condition: <span>New</span></p>
+                <p>Min. Order: <span>1 Piece</span></p>
+                <p>Showcase: <span>All Showcase</span></p>
+                <p>Republic Series</p>
+                <p>GENERAL SPECIFICATIONS</p>
+                <p>​color : <span>Black Natural</span></p>
+                <p>size : <span>36 - 45 (UNISEX)</span> </p>
+            </main>
+            <p class="material">MATERIALS:</p>
+            <main>
+                <p>UPPER: <span>12 oz canvas</span></p>
+                <p>THREAD :<span>nylon </span></p>
+                <p>EYELETS: <span>silver aluminum + ring</span></p>
+                <p>INSOLE:<span>ultralite foam</span> </p>
+                <p>FOXING : <span>rubber</span></p>
+                <p>OUTSOLE: <span>rubber</span> </p>
+                <p>STRIPE:  <span>semi-leather</span></p>
+            </main>
+            <p class="material">100% ORIGINAL BNIB item (Brand New in Box). <br>
+                NOT ORIGINAL GUARANTEED Money Back.
+            </p>
+            <main>
+                <p>Size variants are always updated, if the size can be clicked/selected it means READY. <br>
+                    Using good quality material, very soft, and has strong durability so it is suitable for use every day. <br> The insole is soft and safe so that your feet don't get sore easily.
+                 <br> Good stitching makes shoes look good, strong, safe and durable.
+                </p>
+            </main>
+            <p class="material">CHART SIZE:</p>
+            <main>
+                <p>SIZE 36= <span>23.3 cm</span></p>
+                <p>SIZE 37= <span>23.9 cm</span></p>
+                <p>SIZE 38= <span>24.7 cm</span></p>
+                <p>SIZE 38= <span>28.7 cm</span></p>
+                <p>SIZE 38= <span>24.7 cm</span></p>
+                <p>SIZE 38= <span>28.7 cm</span></p>
+                <p>SIZE 38= <span>24.7 cm</span></p>
+                <p>SIZE 38= <span>24.7 cm</span></p>
+                <p>SIZE 38= <span>24.7 cm</span></p>
+                <p>MEASUREMENT Method:</p>
+            </main>
+            <section class="material">
+                <p>Foot length (Hump to Toe) then adjust to the size chart above. <br>Not Accepting Change Size,
+                <br>THANK YOU for always loving DOMESTIC PRODUCTS.</p>
+            </section>
+
+        </div>
+    </div>
+    <!-- <script>
+        const orderDetail = document.getElementById("order-details")
+const order = [
+  {id: 1,
+     name: "Vantela Ethnic Low <br> Black Natural",
+      image: "ordershow.png",
+       disc: "50%", 
+       price: "Rp 159.800"}
+]
+        function displayOrderList(){
+  orderDetail.innerHTML = order.map(orders => {
+    return `<div class="order-show-container">
+            <div class="empty-div"><img src="img/${orders.image}" alt=""></div>
+
+            <div class="second-container">
+                <div class="inner-container">
+                    <button class="disc">${orders.disc}</button>
+                    <div class="loved-share-icon">
+                     <img src="img/loved.png" alt="">   
+                     <img src="img/share-icon.png" alt="">
+                    </div>
+                </div>
+                  <h2>${orders.name}</h2>
+                    <strike class="strike">Rp 319.600</strike>
+                    <p>${orders.price}</p><br>
+                    <span>Select a size</span>
+                    <div class="size-container">
+                        <button>1</button>
+                        <button>2</button>
+                        <button>3</button>
+                        <button>4</button>
+                        <button>5</button>
+                        <button>6</button>
+                    </div>
+                    <div class="cart-container">
+                        <img src="img/chatting.png" alt=""><br>
+                        <button>+Add to cart</button> <br>
+                        <button type="button" onclick="window.location.href = 'http://127.0.0.1:5500/shopping.html'">Buy more</button>
+                    </div>
+            </div>
+        </div> `
+  }).join(" ")
+}
+displayOrderList()
+
+    </script> -->
+    
+</body>
+</html>

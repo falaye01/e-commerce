@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter"
+}
+.head-container{
+    height: 3.5em;
+    width: 100%;
+    background: #F1F1F1;
+    padding-right: 8em;
+    padding-top: 23px;
+}
+.head-content{
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+}
+.head-content a{
+    text-decoration: none;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #858585;
+    padding-top: 5px;
+}
+.header-container{
+    background: #F1F1F1;
+    height: 3.5em;
+    max-width: 100%;
+    padding-right: 8em;
+}
+#wrapper-padding{
+    padding: 0 8em;
+    margin-top: 1em;
+}
+.parent-wrapper {
+    display: flex;
+    align-items: center;
+    /* border: 4px solid red; */
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    place-items: center;
+    /* position: relative;
+    top: 3em; */
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    gap: 3em;
+    margin-left: 11em;
+  }
+  
+  
+  .nav-container {
+    display: flex;
+    gap: 15px;
+    /* border: 5px solid #0f0; */
+    min-width: 50%;
+  }
+  .nav-container .home{
+      color: #1F3E97;
+  }
+
+  
+  .nav-container a {
+    text-decoration: none;
+    color: #858585;
+    font-weight: 500;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-container a:hover {
+    color: #1F3E97; 
+  }
+  
+  
+  .icon-wrapper {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .icon-wrapper img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  
+  
+  .btn-wrapper {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .btn-wrapper button {
+    background-color: white;
+    color: #1F3E97;
+    border: 1px solid #1F3E97;
+    height: 2.5em;
+    width: 6em;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-wrapper button:hover {
+    background: #1F3E97;
+    color: white;
+  }
+  .order-list{
+    font-size: 12px;
+    margin-top: 2em;
+}
+.ven-1, .ven-2, .ven-3{
+    padding-left: 1em;
+}
+.order-list .item{
+    color: #1F3E97;
+    padding-left: 1em;
+}
+.order-show-container{
+    display: flex;
+    gap: 2em;
+    margin-top: 2em;
+}
+.order-show-container .empty-div{
+    height: 18em;
+    width: 20em;
+    border: 2px solid #D9D9D9;
+    align-content: center;
+    border-radius: 5px;
+}
+.empty-div img{
+    width: 17em;
+    height: 12em;
+    padding-left: 3em;
+}
+.second-container{
+    
+    margin-top: 2em;
+}
+.inner-container{
+    display: flex;
+    gap: 11em;
+}
+.loved-share-icon{
+    display: flex;
+    gap: 1em;
+}
+.loved-share-icon img{
+    height: 1.5em;
+    width: 1.5em;
+}
+.disc{
+    height: 2.3em;
+    width: 7em;
+    background: #FFB800;
+    border: none;
+    font-size: 13px;
+    border-radius: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.second-container h2{
+    margin-top: 0.5em;
+}
+.second-container .strike{
+    margin-top: 0.6em;
+    font-size: 13px;
+}
+.second-container p{
+    margin-top: 0.7em;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1F3E97;
+}
+.size-container button{
+   height: 2.3em;
+   width: 2.3em;
+   font-size: 12px;
+   border-radius: 5px;
+   border: 1px solid #858585;
+   cursor: pointer;
+}
+.cart-container {
+    display: flex;
+    gap: 1em;
+    margin-top: 0.8em;
+}
+.cart-container img{
+    height: 1.8em;
+    width: 1.8em;
+    border: 1px solid #1F3E97;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.cart-container button{
+    height: 2.3em;
+    width: 10em;
+    border-radius: 30px;
+    border: 1px solid #1F3E97;
+    background-color: white;
+    font-size: 16px;
+    color: #1F3E97;
+}
+.cart-container button:hover{
+    background-color: #1F3E97;
+    color: white;
+}
+.review-container{
+    height: 4em;
+    width: 59em;
+    background: #F1F1F1;
+    border-radius: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 2em;
+    padding-left: 2em;
+    margin-top: 3em;
+}
+.review-container p{
+    font-size: 18px;
+    font-family: "inter";
+    font-weight: 500;
+    text-align: center;
+    color: #858585;
+}
+.review-container p:hover{
+    background-color: #1F3E97;
+    color: white;
+    border: 1px solid #1F3E97;   
+    padding: 10px;
+    border-radius: 30px;
+}
+.order-details-container{
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+.order-details-container p{
+    padding: 0.2em 0;
+}
+.order-details-container .material{
+    margin: 1em 0;
+}   
+  
+  
+  

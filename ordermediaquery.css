@@ -1,0 +1,96 @@
+@media only screen and (max-width: 480px){
+   header{
+    display: none;
+   }
+   .icon-wrapper{
+    display: none;
+   }
+   .order-list{
+      margin-top: 5em;
+   }
+   .admin-container{
+    display: none;
+
+   }
+   #wrapper-padding{
+    padding: 0 2em;
+}
+   .order-show-container{
+    display: block;
+
+   }
+   .order-list{
+    width: 5em;
+
+   }
+   .item{
+    display: none;
+   }
+   .order-show-container .empty-div{
+    width: 15em;
+   }
+   .second-container{
+   }
+   .second-container h2, span, .size-container{
+      margin-left: 1.7em;
+   }
+   .second-container p{
+      margin-left: 5em;
+      margin-top: 1em;
+   }
+   .strike{
+      margin-left: 9em;
+      margin-top: 2em;
+   }
+   .second-container span{
+      margin-left: 5em;
+   }
+   .size-container{
+      margin-left: 3em;
+      margin-top: 2em;
+   }
+   .empty-div img{
+    width: 13em;
+
+   }
+   .inner-container{
+    display: block;
+    position: relative;
+    height: 5em;
+
+   }
+   .inner-container .disc{
+    margin-left: 5em;
+       }
+   
+   .disc{
+    width: 10em;
+    height: 3em;
+    font-size: 1rem;
+    border-radius: 30px;
+   }
+   .loved-share-icon{
+    /* margin-top: 3em; */
+    /* padding-top: 2em; */
+    margin-left: 10em;
+
+   }
+   .cart-container{
+    display: block;
+    margin-top: 2em;
+
+   }
+   .cart-container img{
+    margin-left: 7em;
+   }
+   .cart-container button{
+    margin-top: 2em;
+    margin-left: 3em;
+    width: 13em;
+    height: 3em;
+   }
+   .review-container{
+    width: 15em;
+
+   }
+}

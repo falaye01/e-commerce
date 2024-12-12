@@ -1,0 +1,92 @@
+@media only screen and (max-width: 480px){
+     .header-content{
+        visibility: hidden;
+    }
+    header{
+        display: none;
+    }
+    .icon-wrapper, .btn-wrapper{
+        display: none;
+    }
+    .nav-bar{
+        display: none;
+    }
+    
+    .line{
+        display: block;
+        margin-left: -2em;
+
+    }
+    .menu{
+        /* visibility: visible; */
+        display: block;
+        width: 25.5em;
+        background-color: black;
+        /* visibility: hidden; */
+        z-index: 999;
+        position: absolute;
+        left: 0;
+
+    }
+    .menu a{
+        display: block;
+        background-color: black;
+        text-align: center;
+        padding-bottom: 1em;
+        text-decoration: none;
+    }
+   
+    .body-padding{
+        padding: 0 2em;
+    }
+    .image{
+        margin-left: -6.5em;
+    }
+    .item-container{
+        display: block;
+        margin-left: -3em;
+    }
+    .search-container{
+        margin-left: -4em;
+
+    }
+    .search-container div{
+        width: 18em;
+    }
+    .men-sandal{
+        width: 18em;
+        height: 3em;
+        text-align: center;
+        margin-left: -4em;
+    }
+    .order2{
+        margin-top: 1em;
+        width: 16em;
+    }
+    .shop{
+        padding: 0 2em;
+    }
+    .order2 img{
+        padding-top: 1.1em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+    .padding-2{
+        padding: 0 1.5em;
+    }
+    .footer-container{
+        display: block;
+    }
+    .footer-container input{
+        width: 24em;
+        margin-top: 2em;
+        margin-left: 1em;
+    }
+   .footer-container img{
+    margin-left: 1em;
+   }
+   .footer-details{
+    display: block;
+   }
+   
+}

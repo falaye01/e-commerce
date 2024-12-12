@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter"
+}
+.head-container{
+    height: 3.5em;
+    width: 100%;
+    background: #F1F1F1;
+    padding-right: 8em;
+    padding-top: 23px;
+}
+.head-content{
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+}
+.head-content a{
+    text-decoration: none;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #858585;
+    padding-top: 5px;
+}
+.header-container{
+    background: #F1F1F1;
+    height: 3.5em;
+    max-width: 100%;
+    padding-right: 8em;
+}
+#wrapper-padding{
+    padding: 0 8em;
+}
+
+.image{
+    position: relative;
+    top: 2.5em;
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin-left: 32em;
+    margin-top: -7.7em;
+    
+}
+
+.icon-wrapper {
+    display: flex;
+    gap: 20px; 
+
+}
+
+.icon {
+    position: relative;
+}
+
+.icon img {
+    width: 40px; 
+    height: 40px;
+}
+
+.icon span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #FFB800;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* design for hamburger menu */
+.menu-btn {
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+    background-color: white;
+    z-index: 999;
+}
+
+.menu-btn {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 100;
+    visibility: hidden;
+}
+
+.menu.active {
+    display: block;
+}
+
+.menu li {
+    margin: 10px 0;
+    visibility: hidden;
+}
+
+.menu a:hover {
+    color: #ff6347;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.admin-container {
+    display: flex;
+    align-items: center;
+}
+
+.admin-image {
+    width: 50px; 
+    height: 50px;
+    background-color: black; 
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.sign{
+    margin-top: 2em;
+}
+.sign p{
+    padding-top: 10px;
+    font-size: medium;
+    color: #464646;
+    padding-left: 1em;
+}
+.sign hr{
+    color: #D9D9D9;
+    margin-top: 1.5em;
+    opacity: 0.4;
+}
+.shopping-item-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+    
+}
+#wrapper{
+    margin-top: 1em;
+}
+/* the item details start from here */
+/* Main container for the item */
+.item-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    /* border: 1px solid #e0e0e0; */
+    border-radius: 8px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+
+.item-image img {
+    width: 4em;
+    height: 4em;
+    border-radius: 8px;
+}
+
+/* Cart content styling */
+.cart-content {
+    flex-grow: 1;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cart-content div{
+    display: flex;
+    gap: 1em;
+}
+.cart-content h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.disc-btn {
+    display: inline-block;
+    font-size: 14px;
+    color: black;
+    background-color: #FFB800;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.line-strike {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 22px;
+    color: #27ae60;
+}
+
+/* Action buttons and quantity control */
+.item-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 2em;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.quantity-control button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.quantity-control img {
+    width: 24px;
+    height: auto;
+}
+
+.quantity-control .quantity {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+/* Add note section */
+.add-note {
+    display: flex;
+    align-items: center;
+}
+
+.add-note .note-text {
+    font-size: 14px;
+    color: #555;
+    cursor: pointer;
+}
+
+.add-note .divider {
+    margin: 0 8px;
+    color: #999;
+}
+
+.add-note button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.add-note img {
+    width: 16px;
+    height: auto;
+}
+.horizontal-line{
+    width: 29.5em;
+    margin-left: 1em;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+.wrap-detail{
+    height: 25em;
+    width: 23em;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 1em;
+    padding: 20px;
+    border: 1px solid #D9D9D9
+}
+.wrap-detail h2{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+}
+.apply-code{
+    height: 3em;
+    width: 20.7em;
+    background: #F1F1F1;
+    align-items: center;
+    padding: 0px 20px;
+    border-radius: 10px;
+    margin-top: 2em;
+}
+.wrap-detail label{
+    position: relative;
+    top: 1em;
+}
+
+.apply-code input{
+    width: 16em;
+    height: inherit;
+    background-color: #F1F1F1;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    text-overflow: ellipsis;
+}
+.apply-code button{
+    height: 2.3em;
+    width: 6em;
+    background-color: #1F3E97;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    margin-left: 2.2em;
+    cursor: pointer;
+}
+.line{
+    border: 1px solid #D9D9D9;
+    margin-top: 1em;
+}
+.item-price{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    color: #1F3E97;
+}
+.subtotal{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    color: #1F3E97;
+}
+.check-btn{
+    width: 21em;
+    height: 3em;
+    border-radius: 10px;
+    background-color: #1F3E97;
+    border: none;
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    text-align: center;
+    margin-top: 1em;
+    cursor: pointer;
+}

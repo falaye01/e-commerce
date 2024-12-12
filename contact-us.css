@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter"
+}
+.head-container{
+    height: 3.5em;
+    width: 100%;
+    background: #F1F1F1;
+    padding-right: 8em;
+    padding-top: 23px;
+}
+.head-content{
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+}
+.head-content a{
+    text-decoration: none;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #858585;
+    padding-top: 5px;
+}
+.header-container{
+    background: #F1F1F1;
+    height: 3.5em;
+    max-width: 100%;
+    padding-right: 8em;
+}
+#wrapper-padding{
+    padding: 0 8em;
+}
+.menu-icon{
+    display: none;
+}
+.menu{
+    display: none;
+}
+.image{
+    position: relative;
+    top: 2.5em;
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin-left: 32em;
+}
+.icon-wrapper {
+    display: flex;
+    gap: 20px; 
+
+}
+.icon {
+    position: relative;
+}
+
+.icon img {
+    width: 40px; 
+    height: 40px;
+}
+
+.icon span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #FFB800;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.admin-container {
+    display: flex;
+    align-items: center;
+}
+
+.admin-image {
+    width: 50px; 
+    height: 50px;
+    background-color: black; 
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.contact-us-container{
+    margin-top: 3em;
+}
+h2{
+    font-family: "inter";
+}
+hr{
+    border: 1px solid #D9D9D9
+}
+.contact-details{
+    margin-top: 2em;
+    display: flex;
+    gap: 3em;
+}
+.contact-details input{
+    height: 3em;
+    width: 22em;
+    outline: none;
+    background: #F1F1F1;
+    border-radius: 10px;
+    border: 1px solid #F1F1F1;
+    padding: 0 10px;
+    margin-top: 0.5em;
+}
+ label {
+    margin-left: 0.5em;
+    color: #1F3E97;
+    font-family: "inter";
+}
+.message-container{
+    margin-top: 2em;
+    color: #1F3E97;
+
+}
+.message-container textarea{
+    height: 9em;
+    width: 47.5em;
+    outline: none;
+    border-radius: 10px;
+    background: #F1F1F1;
+    border: 1px solid  #F1F1F1;
+    padding: 10px;
+    margin-top: 0.4em;
+    resize: none;
+
+}
+.security-code{
+    margin-top: 2em;
+}
+.security-code div{
+    margin-top: 0.8em;
+    height: 4em;
+    width: 12em;
+    border-radius: 10px;
+    background: #F1F1F1;
+    padding: 15px;
+
+}
+.security-code input{
+    height: 3em;
+    width: 12em;
+    border-radius: 5px;
+    border: 1px solid #F1F1F1;
+    outline: none;
+    
+}
+.wrapper{
+    margin-top: 2em;
+    display: flex;
+    gap: 1em;
+}
+.wrapper input{
+    height: 2.5em;
+    width: 15em;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #F1F1F1;
+    padding: 5px;
+    text-overflow: ellipsis;
+}
+.wrapper button{
+    height: 2.6em;
+    width: 5em;
+    background-color: #1F3E97;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer{
+    background: #1F3E97;
+    margin-top: 4em;
+}
+.padding-2{
+    padding-left: 8em;
+    padding-right: 8em;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4em;
+}
+.footer-container input{
+    width: 29em;
+    border-radius: 2em;
+    height: 3.5em;
+    padding-left: 2em;
+    border: none;
+}
+.footer-container input:focus{
+    outline: none;
+    border: none;
+}
+
+.about a{
+    color: white;
+}
+.help a{
+    color: white;
+} 
+.footer-details {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    padding: 20px;
+    color: white;
+    margin-top: 3em;
+}
+
+.footer-details h2 {
+    font-size: 29px;
+    margin-bottom: 20px;
+    
+}
+
+.footer-details a {
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footer-details a:hover {
+    text-decoration: underline;
+}
+
+.footer-details p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+.footer-details img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.footer-details .social div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-details .social span {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer-details .contact p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer-copyright {
+    background: #18378F;
+    text-align: center;
+    padding: 10px 0; 
+    color: #fff;
+    font-size: 14px; 
+}
+
+.footer-copyright p {
+    margin: 0;
+    color: #ccc; 
+}

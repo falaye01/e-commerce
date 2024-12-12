@@ -1,0 +1,94 @@
+@media only screen and (max-width: 480px){
+    header{
+        display: none;
+    }
+    #wrapper-padding{
+        padding: 0 1.3em;
+    }
+    .icon-wrapper{
+        display: none;
+    }
+    .admin-container{
+        display: none;
+    }
+    .sign hr{
+        width: 16.5em;
+        
+    }
+    #wrapper-payment-details{
+        display: block;
+    }
+    .menu-icon {
+        flex-direction: column;
+        cursor: pointer;
+        margin-left: 14.5em;
+        align-items: center;
+        /* height: 2em;
+        width: 2.3em; */
+        border: #1F3E97 solid 3px;
+        border-radius: 5px;
+        padding: 1px;
+        margin-top: -0.4em;
+        display: block;
+
+    }
+    .menu-icon .bar {
+        width: 2em;
+        height: 5px;
+        border-radius: 10px;
+        background-color: #1F3E97;
+        margin: 5px 0;
+        color: #1F3E97;
+    }
+    .menu {
+        list-style: none;
+        text-align: center;
+        background-color: #333;
+        padding:  15px 0;
+        width: 19.5em;
+        object-position: center;
+        margin-left: -1.3em;
+        z-index: 999;
+        margin-top: 0.5em;
+        position: absolute;
+        display: block;
+        visibility: hidden;
+        
+    }
+    .menu a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        transition: color 0.3s ease-in-out;
+        visibility: visible;
+    }
+    .menu li{
+        padding: 5px 0;
+    }
+    .shopping-container input{
+        width: 21em;
+    }
+    .payment-container{
+        display: block;
+        /* border: 3px solid red; */
+        width: 17em;
+        margin-right: +2em;
+
+    }
+    .payment-container label{
+        margin-top: 1em;
+    }
+    select, input{
+        width: 21em;
+
+    }
+    .container{
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+    .sign p {
+        font-weight: bolder;
+    }
+    
+
+}

@@ -1,0 +1,117 @@
+@media only screen and (max-width: 480px){ 
+    .header-container{
+        visibility: hidden;
+    }
+    #wrapper-padding{
+        padding: 0 1.5em;
+        margin-top: -4em;
+    }
+    .btn-wrapper button{
+        display: none;
+    }
+    .icon-wrapper{
+        display: none;
+    }
+    .nav-container{
+        display: block;
+        position: relative;
+    }
+
+    .menu{
+        flex-direction: column; 
+        position: absolute;
+        right: 0;
+        z-index: 999;
+        background-color: black;
+        width: 500px;
+        height: 9em;
+        visibility: hidden;
+    }
+    .menu a{
+        margin-top: 0.4em;
+        text-align: center;
+        margin-left: 7em;
+    }
+    .line{
+        display: block;
+        position: relative;
+    }
+    #order-list{
+        display: block;
+    }
+    .search-container{
+        margin-left: 1em;
+    }
+    .search-container div{
+       width: 14em;
+       height: 2.5em;
+    }
+    .search-container div input{
+        width: inherit;
+        height: inherit;
+    }
+    .page-area{
+        padding: 0 1.5em;
+    }
+    .page-wrapper{
+        display: block;
+    }
+    .para-container{
+        display: block;
+    }
+    #image{
+        width: 15em;
+        margin-top: 2em;
+        margin-left: 0.5em;
+        height: 8em;
+    }
+    .para-container button{
+        width: 13em;
+        height: 4em;
+        margin-left: 7em;
+    }
+    .para-container p{
+        width: 330px;
+    }
+    .main{
+        padding: 0 1.5em;
+    }
+    .popular{
+        width: 16em;
+        margin-left: -6.3em;
+    }
+    #order-container{
+        display: block;
+        margin-top: 5em;
+        margin-left: -5.3em;
+    }
+    #sale-container{
+        display: block;
+        margin-left: -5.3em;
+    }
+    .order2{
+        margin-top: 1em;
+        width: 14em;
+    }
+    .wall-container{
+        display: none;
+    }
+    .wall-container img{
+        width: 400px;
+        visibility: hidden;
+    }
+    .padding-2{
+        padding: 0 1.5em;
+    }
+    .footer-container{
+        display: block;
+    }
+    .footer-container input{
+        width: 18em;
+        margin-top: 1em;
+    }
+    .footer-container img{
+        margin-left: 1em;
+    }
+
+}

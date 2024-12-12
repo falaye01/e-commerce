@@ -1,0 +1,101 @@
+@media only screen and (max-width: 480px){
+    .header-container{
+        display: none;
+    }
+    .padding{
+        padding: 0 1em;
+        }
+    body{
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0) 100%);
+    }
+    
+    .hamburger-and-logo{
+        display: flex;
+        gap: 0;
+        justify-content: space-between;
+    }
+    .image-container{
+        display: none;
+    }
+    .sign-in-container hr{
+        width: 16em;
+        margin-left: 0.6em;
+    }
+    .btn-container{
+        display: none;
+    }
+    #wrapper{
+        flex-direction: column-reverse;
+        margin-left: 0.5em;
+        border:  2px solid red;
+    }
+
+    .menu{
+        flex-direction: column;
+        position: absolute;
+        top: 4.5em;
+        left: 0em;
+        z-index: 999;
+        background-color: black;
+        width: 100%;
+        padding: 0 0.5em;
+        height: 9.1em;
+        visibility: hidden;
+    }
+    .line{
+        display: block;
+        position: relative;
+    }
+
+    .register-container{
+        display: block;
+    }
+    .register-container .password-container{
+        margin-top: 1em;
+    }
+    .login-container button{
+        width: 22.5em;
+        font-family: "inter";
+    }
+    .forget-password{
+        display: inline-block;
+        margin-left: 2em;
+    }
+    .forget-password .have{
+        position: relative;
+        top: 1.5em;
+    }
+    .or{
+        margin-left: 7.5em;
+        margin-top: 3em;
+    }
+    .icon-wrapper{
+        display: block;
+        margin-left: -0em;
+    }
+    .icon1{
+        width: 24em;
+        padding-left: 8.5em;
+
+    }
+    .icon2{
+        margin-top: 2em;
+        width: 24em;
+        padding-left: 8.5em;
+    }
+    .slider img{
+        width: 16em;
+        margin-left: 0.3em;
+    }
+    .padding-2{
+        padding: 0 2em;
+    }
+    .footer-container{
+        display: block;
+    }
+    .footer-container input{
+        width: 20.5em;
+        margin-top: 2em;
+    }
+
+}

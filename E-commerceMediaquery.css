@@ -1,0 +1,208 @@
+/* Mobile devices */
+@media only screen and (max-width: 480px) {
+    .header-container, .header-content{
+        display: none;
+    }
+    .body-padding{
+        padding: 0 2em;
+    }
+    .menu-icon.active + .menu {
+        display: inline-block; 
+        color: #1F3E97;
+        visibility: visible;
+    }
+    .nav-section {
+        color: black;
+        background-color: white;
+     }
+     .line{
+        display: block;
+     }
+     .sign hr{
+        width: 18.2em;
+     }
+    .nav-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-section ul{
+        cursor: pointer;
+        display: inline-block;
+        padding: 10px;
+        padding: 20px 0px;
+        background-color: white;
+        color: white;
+        width: 100%;
+        text-align: center;
+        z-index: 999;
+        position: absolute;
+        top: 7em;
+        left: 0;
+        display: none;
+    }
+    .nav-section li a{
+        font-size: 20px;
+        font-family: "inter";
+        padding-top: 10px;
+    }
+    label{
+       display: block;
+        width: 300px;
+        font-family: "inter ";
+        margin-bottom: -1em;
+    }
+    .nav-icon, .btn1, .btn2{
+        display: none;
+    }
+    .register-slide-image{
+        flex-direction: column-reverse;
+        margin-left: 0.2em;
+
+    }
+    .scrolling-image{
+        width: 18em;
+        height: 22em;
+    }
+    .slide{
+        width: 22em;
+    }
+
+    .registration-container{
+        display: block;
+        margin-right: 20em;
+  }
+  .register-container-part{
+       display: block;
+  }
+  input, select{
+    width: 23em;
+  }
+
+  .password-container label {
+       font-family: "inter";
+  }
+
+  .radio-wrapper{
+    width: 26em;
+    font-size: 12px;
+  }
+  .radio-wrapper input{
+    position: absolute;
+    left: 6px;
+    top: 2em;
+  }
+  .signup-section label{
+    font-family: "inter";
+  }
+     .sign-up{
+         display: flex;
+         flex-direction: row;
+    }
+    .address-container input{
+        width: 370px;
+    }
+    .address-container label{
+        font-family: "inter";
+    }
+    .state-and-city label{
+        font-family: "inter";
+    }
+    .state-and-city{
+        display: block;
+        gap: 2em;
+    }
+    .signup-container button{
+        width: 24.5em;
+    }
+    .city-container{
+        margin-top: 1.5em;
+    }
+    .signup-container button{
+        padding: 10px 8.7em;
+    }
+    .or{
+        margin-left: 9em;
+    }
+    .social-container{
+        display: block;
+        margin-left: 0.5em;
+    }
+    .addre-hr{
+        display: none;
+    }
+    .google-icon {
+        width: 16.8em;
+    }
+    .facebook-icon{
+        margin-top: 1.5em;
+        width: 16.8em;
+    }
+    
+    .padding-2{
+        padding: 0 1em;
+    }
+    .footer-container input{
+        width: 20em;
+        margin-top: 2em;
+    }
+    .footer-container{
+        display: block;
+        margin-left: 1em;
+    }
+    .footer-container img{
+        margin-left: 1em;
+    }
+    .footer-details{
+        display: block;
+        color: white;
+        margin-top: 3em; 
+    }
+    .footer-details h2{
+        margin-top: 2em;
+    }
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* Tablets */
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  /* Desktops */
+  @media only screen and (min-width: 769px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  

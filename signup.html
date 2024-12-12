@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="E-commerce.css">
+    <link rel="stylesheet" href="E-commerceMediaquery.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+        <header>
+            <div class="header-container">
+                <div class="header-content">
+                 <a href="contact.html">Help</a>
+                 <p>|</p>
+                 <a href="menu.html">Store</a>
+                </div>
+            </div>
+        </header>
+    <div class="body-padding">
+            <div class="nav-container">
+                <img src="img/logo.png" alt="">
+                <div class="nav-just">
+                    <div class="nav-section">
+                        <div class="hamburger" id="menu-toggle">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+                        
+                        <ul class="menu" id="menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Sneakers</a></li>
+                            <li><a href="#">Slip On</a></li>
+                            <li><a href="#">Scandal</a></li>
+                            <li><a href="#">Others</a></li>         
+                        </ul>
+                    </div>
+                        <div class="icon-btn">
+                            <div class="nav-icon">
+                                    <img src="img/chat.png" alt="">
+                                    <img src="img/favorite.png" alt="">
+                                    <img src="img/cart.png" alt="">
+                            </div>
+                            <div class="nav-btn">
+                                <button onclick="window.location.href='http://127.0.0.1:5500/signin.html'" class="btn1">Sign Up</button>
+                                <button  onclick="window.location.href='http://127.0.0.1:5500/signin.html'" class="btn2">Sign In</button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <div class="sign">
+                <p>Sign up</p>
+                <hr>
+            </div>
+            <form  id="sign-up" action="" method="post">
+<div class="register-container-part">
+    <div class="register-slide-image">
+        <div class="division">
+            <div class="registration-container">
+
+                <div class="signup-section">
+                    <div class="name-container">
+                        <label>Full name</label> <br>
+                        <input id="fullname" type="text" placeholder="Comrade" required>
+                    </div>
+
+                       <div class="date-container">
+                         <label>Date of birth</label> <br>
+                         <input id="birthday" type="date" placeholder="Date of  birth" required>
+                        </div>
+
+                        <div class="password-container">
+                          <label>Password</label> <br>
+                          <input id="password" type="password" placeholder="Password" required>
+                        </div>
+                </div>
+
+                <div class="form2">
+                    <div class="name-container">
+                       <label>Username</label> <br>
+                       <input id="username" type="text" placeholder="Comrade01" required>     
+                    </div>
+
+                    <div class="date-container">
+                      <label>Email</label> <br>
+                      <input id="email" type="email" placeholder="Comrade2024@gmail.co" required>
+                    </div>
+
+                    <div class="password-container">
+                      <label  class="label">Comfirm Password</label> <br>
+                      <input id="comfirm-password" type="password" placeholder="comfirm password" required>
+                    </div>
+
+                </div>
+            </div>
+             <hr class="addre-hr">
+            <div class="address-state-city">
+                <div class="address-container">
+                    <label>Address</label> <br>
+                    <input class="address-input" type="text" placeholder="Jl. Budi perkerti no 56" required>
+                </div>
+
+                <div class="state-and-city">
+                    <div class="state-container">
+                        <label>State</label> <br>
+                        <select id="state">
+                            <!-- <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                            <option value="4">Option 4</option> -->
+                        </select>
+                    </div>
+    
+                    <div class="city-container">
+                        <label>City</label> <br>
+                        <select>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                            <option value="4">Option 4</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <div class="radio-wrapper">
+                    <input class="rad" type="radio" id="radio1" name="option">
+                    <label for="radio1">By pressing the Register button means that you have agreed to the terms and conditions of the application</label>
+                </div>
+            </div>
+            <div class="signup-container">
+                <button>Sign Up</button>
+                <p class="or">Or</p>
+                <div class="social-container">
+                    <div class="google-icon">
+                        <img src="img/goo.png" alt="">
+                        <span>Sign Up with Google</span>
+                    </div>
+                    <div class="facebook-icon">
+                        <img src="img/facebook.png" alt="">
+                        <span>Sign Up with Facebook</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    
+    <div class="scrolling-image">
+        <div class="slider" style="border: 2px solid green;">
+            <div class="slide"><img src="img/Group 2 (1).png" alt=""></div>
+            <div class="slide"><img src="img/Group 2.png" alt=""></div>
+            <div class="slide"><img src="img/Group 2.png" alt=""></div>
+         </div>
+            <div class="dot-container">
+              <span class="dot" onclick="currentSlide(0)"></span>
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+        </div>
+
+    </div>
+        
+</div>
+</div>
+</div>
+</div>
+</form>
+<footer>
+    <div class="padding-2">
+        <div class="footer-container">
+            <img src="img/footer-logo.png" alt="">
+                <input type="search" placeholder="Subscribe to our newsletter ...">
+        </div>
+    <div class="footer-details">
+        <div class="about">
+                    <h2>Company</h2>
+                    <a href="#">About us</a><br>
+                    <a href="#">Our store</a><br>
+                    <a href="#">News</a>
+        </div>
+        <div class="help">
+            <h2>Help</h2>
+            <a href="#">Faq</a><br>
+            <a href="#">Help</a><br>
+            <a href="#">Terms</a>          
+        </div>
+        <div class="social">
+            <h2>Social Media</h2>
+            <div>
+                <img src="img/facebook.png" alt=""><span>Facebook</span>
+            </div>
+            <div>
+                <img src="img/tik.png" alt="">
+                <span>Tiktok</span>
+            </div>
+            <div>
+                <img src="img/instagram.png" alt=""><span>Instagram</span>
+            </div>
+        </div>     
+        <div class="contact">
+            <h2>Contact</h2>
+            <p>Sukaasih, Kota Tangerang, Banten 15111</p>
+            <p>Phone : 0976444677</p>
+            <p>Mail : adminvantela@domain.com</p>
+        </div>
+        </div>
+    
+        </div>
+ </footer>
+    <div class="footer-copyright">
+        <p>Copyright <span id="yeardate">2023</span> . All Right Reserverd</p>
+    </div>
+
+
+     <script>
+      const footerContext = document.getElementById("footer-content")
+
+      footerContext.innerHTML =  new Date().getFullYear() +  footerContext.innerText   
+     </script>
+     <script src="e-commerce.js"></script>
+</body>
+</html>

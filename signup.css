@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter"
+}
+.header-container{
+    background: #F1F1F1;
+    height: 3.5em;
+    max-width: 100%;
+    padding-right: 8em;
+}
+.header-content{
+    display: flex;
+    gap: 1em;
+    justify-content: end;
+    color: #858585;
+    padding-top: 1em;
+}
+.header-content a{
+    text-decoration: none;
+    color: #858585;
+    font-weight: 500;
+}
+.padding{
+    padding-right: 8em;
+    padding-left: 8em;
+    /* background-color: red; */
+}
+.header-wrapper{
+    margin-top: 1.5em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 8em;
+}
+.division{
+    display: flex;
+}
+.nav-container{
+    display: flex;
+    gap: 1em;
+}
+.nav-container a{
+    text-decoration: none;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #1F3E97;
+    padding-top: 15px;
+    padding-left: 0.5em;
+    /* padding-right: 0.5em; */
+    text-align: center;
+    width: 4.7em;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+}
+.hamburger{
+    display: block;
+    display: none;
+}
+.line {
+    width: 30px;
+    height: 5px;
+    background: #1F3E97;
+    margin: 5px 0;
+    transition: 0.4s;
+    border-radius: 5px;
+}
+.image-container{
+    display: flex;
+    gap: 1em;
+}
+.division2{
+    display: flex;
+    margin-left: 2em;
+    gap: 1.5em;
+}
+.image-container img{
+    height: 1.3em;
+    width: 1.3em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.btn-container{
+    display: flex;
+    gap: 0.5em;
+}
+.btn-container button{
+    background-color: white;  
+    color: #1F3E97;               
+    height: 3em;
+    width: 6em;
+    border: 1px solid #1F3E97;               
+    border-radius: 25px;         
+    font-size: 16px;            
+    cursor: pointer;             
+    transition: background-color 0.3s,
+    box-shadow 0.3s;
+}
+.btn-container button:hover{
+    background: #1F3E97;
+    color: white;
+}
+.sign-in-container{
+    margin-top: 3em;
+}
+.sign-in-container p{
+    padding-left: 1em;
+    font-family: "inter";
+}
+.sign-in-container hr{
+    margin-top: 1.5em;
+}
+#wrapper{
+    display: flex;
+    gap: 2em;
+}
+.register-container{
+    margin-top: 2em;
+    display: flex;
+    gap: 1em;
+}
+.register-container label{
+    counter: #1F3E97;
+}
+input{
+    width: 19em;             
+    padding: 12px 20px;         
+    margin: 8px 0;              
+    box-sizing: border-box;    
+    border: 2px solid #ccc;     
+    border-radius: 6px;         
+    font-size: 16px;            
+    background-color: #f9f9f9; 
+    transition: border 0.3s,
+    background-color 0.3s;
+}
+input:focus{
+    border-color: #1F3E97;    
+    background-color: #fff;     
+    outline: none; 
+}
+input::placeholder{
+    color: #aaa;                
+    font-style: italic;
+}
+.register-container label{
+    margin-left: 0.5em;
+}
+.login-container button{
+  background: #18378F;
+  border: none;
+  color: white;
+  margin-top: 1.8em;
+  width: 41.8em;
+  height: 3em;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "inter";
+  border-radius: 5px; 
+  cursor: pointer;
+  transition: all 0.3s ease; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+}
+.forget-password{
+    display: flex;
+    /* gap: 12em; */
+    justify-content: space-between;
+    margin-left: 1em;
+    margin-top: 2em;
+}
+.forget-password a{
+    text-decoration: none;
+}
+.forget-password .have{
+    color: black;
+}
+.or{
+    margin-top: 1.5em;
+    margin-left: 15em;
+}
+.icon-wrapper{
+    display: flex;
+    gap: 1em;
+    margin-left: 5em;
+    margin-top: 2em;
+}
+.icon1{
+    height: 3em;
+    width: 14em;
+    background-color: white;
+    border: 1px solid #1F3E97;
+    color: #1F3E97;
+    cursor: pointer;
+    border-radius: 30px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+    display: flex;
+    gap: 0.6em;
+    padding-left: 45px;
+}
+
+.icon2{
+    height: 3em;
+    width: 14em;
+    background-color: white;
+    border: 1px solid #1F3E97;
+    color: #1F3E97;
+    cursor: pointer;
+    border-radius: 30px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+    display: flex;
+    gap: 0.6em;
+    padding-left: 45px;
+}
+.slider{
+    margin-top: 3.2em;
+}
+.slider img{
+    width: 18em;
+}
+footer{
+    background: #1F3E97;
+    /* height: 25em; */
+    margin-top: 4em;
+}
+.padding-2{
+    padding-left: 8em;
+    padding-right: 8em;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4em;
+}
+.footer-container input{
+    width: 29em;
+    border-radius: 2em;
+    height: 3.5em;
+
+}
+
+.about a{
+    color: white;
+}
+.help a{
+    color: white;
+} 
+.footer-details {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    padding: 20px;
+    color: white;
+    margin-top: 3em;
+}
+
+.footer-details h2 {
+    font-size: 29px;
+    margin-bottom: 20px;
+    
+}
+
+.footer-details a {
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footer-details a:hover {
+    text-decoration: underline;
+}
+
+.footer-details p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+.footer-details img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.footer-details .social div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-details .social span {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer-details .contact p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer-copyright {
+    background: #18378F;
+    text-align: center;
+    padding: 10px 0; 
+    color: #fff;
+    font-size: 14px; 
+}
+
+.footer-copyright p {
+    margin: 0;
+    color: #ccc; 
+}
+
+@media (max-width: 768px) {
+    .footer-details {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-details {
+        grid-template-columns: 1fr; 
+    }
+}
